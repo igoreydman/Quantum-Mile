@@ -2,6 +2,8 @@
 
 Quantum Mile is an interactive experiment in traffic signal coordination. In a modeled Coral Gables network, one approach’s green can help its queue while filling a downstream block. The playground compares fixed cycling, exact classical search and a quantum sampler. The code and evidence here reproduce one frozen six-crossing decision independently in Qiskit.
 
+[Open the Quantum Mile demo](https://quantum-mile.tarpit-ai.chatgpt.site/). The site is available to approved viewers.
+
 ## Reproduce the recorded decision
 
 Use Python 3.14 (verified locally with 3.14.6). From this directory:
