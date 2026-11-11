@@ -1,0 +1,356 @@
+{
+  "fixtureSha256": "39691c174312b9a78ba7d8d4c19fd458f6e9c097e516cdc133224d77bf52374b",
+  "sourceSha256": {
+    "two-way-traffic-model.js": "bf8f97371949d0862a6f49136b7eb8d3feb5325faca7c2a135f6ca371344a5b0",
+    "queue-signal-controller.js": "7d8ce75b528b00403c3e7dd24438f8a2c4fa6771a66a49f1849bdfe77f7868b5",
+    "traffic-scenarios.js": "721ec8590ecef08496c057d73d655c4740469bac10396caf80951a0a13a62489",
+    "local-signal-planner.js": "ebda2b9bc106b36e8c28db93caf7f55f117b8849dd2c1da2cc2789cc991d7df2",
+    "routed-traffic-model.js": "e81c1cb5e8c372897a8c4a80adcfd922982172f9848810fcc1f8af89edcfab7d",
+    "neighborhood-controller.js": "86d5f14d53238b14f984569e26ee840e4a124c1b3c413f25f2c2ed9129c5fac9",
+    "circuit-decision.js": "f05214b768bc2cc1a18ebbf7600ebbe79eb6e96545df46c7d745d80c06101669",
+    "lesson-decision.js": "fb5b7f391f53d4a4248210c9ed96739182375eeb5a4a3ef9d34ffbd741cdd5ba",
+    "street-experience.js": "763d80f58d092f6d4508be0b52a34228ba22b44d6357ef3505255401d72338e8",
+    "traffic-demand.js": "baa3352bc79091fb9b030314f37334a206f61e192eaecef5e055d0f07bf49365",
+    "neighborhood-workspace-model.js": "e0500a54a3b4d5aa7c1bb67aee060d1f4caf405c1e993d1956f24a6fc7f18e4c",
+    "two-way-geography.json": "2f00cdd838b726903c5153004368cab943cd1f6d1b8f1be35b61444152af6f50",
+    "neighborhood-geography.json": "a01aef8fccb5f47d91e79d835a858350e98019700589e49d02ae47a30f2b7260",
+    "routed-network.json": "5d152ba2824643c5fc8a150d188deafb19a483448ed710060cc07aae751c6bb9"
+  },
+  "streets": [
+    {
+      "hour": 0,
+      "case": "street-h00-full",
+      "quantumExpectedDelay": 3.8345095514186687,
+      "classicalDelay": 3.798136718568735,
+      "fixedDelay": 2.7694144538298575
+    },
+    {
+      "hour": 1,
+      "case": "street-h01-full",
+      "quantumExpectedDelay": 3.792606426693858,
+      "classicalDelay": 3.77498698322973,
+      "fixedDelay": 3.5474177938094957
+    },
+    {
+      "hour": 2,
+      "case": "street-h02-full",
+      "quantumExpectedDelay": 2.5855345409450297,
+      "classicalDelay": 2.583199925828588,
+      "fixedDelay": 3.0046970652919542
+    },
+    {
+      "hour": 3,
+      "case": "street-h03-full",
+      "quantumExpectedDelay": 2.1521111904743715,
+      "classicalDelay": 2.0960506892823814,
+      "fixedDelay": 3.147908597146341
+    },
+    {
+      "hour": 4,
+      "case": "street-h04-full",
+      "quantumExpectedDelay": 4.018890485493541,
+      "classicalDelay": 4.002451815332695,
+      "fixedDelay": 3.3675450737426753
+    },
+    {
+      "hour": 5,
+      "case": "street-h05-full",
+      "quantumExpectedDelay": 3.6270939974932466,
+      "classicalDelay": 3.588142549239338,
+      "fixedDelay": 2.635401777400287
+    },
+    {
+      "hour": 6,
+      "case": "street-h06-full",
+      "quantumExpectedDelay": 3.216335705323281,
+      "classicalDelay": 3.213210054487799,
+      "fixedDelay": 3.122382297665729
+    },
+    {
+      "hour": 7,
+      "case": "street-h07-full",
+      "quantumExpectedDelay": 5.466322599021969,
+      "classicalDelay": 5.406466468128363,
+      "fixedDelay": 6.184578091837456
+    },
+    {
+      "hour": 8,
+      "case": "street-h08-full",
+      "quantumExpectedDelay": 8.258305278264729,
+      "classicalDelay": 8.248990261911176,
+      "fixedDelay": 9.064983455266988
+    },
+    {
+      "hour": 9,
+      "case": "street-h09-full",
+      "quantumExpectedDelay": 7.1436764930539685,
+      "classicalDelay": 7.075193783319403,
+      "fixedDelay": 7.990785243546821
+    },
+    {
+      "hour": 10,
+      "case": "street-h10-full",
+      "quantumExpectedDelay": 5.719261656954519,
+      "classicalDelay": 5.689048783656844,
+      "fixedDelay": 6.503780017143522
+    },
+    {
+      "hour": 11,
+      "case": "street-h11-full",
+      "quantumExpectedDelay": 5.907632263268535,
+      "classicalDelay": 5.872100383244305,
+      "fixedDelay": 6.682024980464835
+    },
+    {
+      "hour": 12,
+      "case": "street-h12-full",
+      "quantumExpectedDelay": 6.454200732626053,
+      "classicalDelay": 6.373385535068061,
+      "fixedDelay": 7.324456732451575
+    },
+    {
+      "hour": 13,
+      "case": "street-h13-full",
+      "quantumExpectedDelay": 6.931408813378816,
+      "classicalDelay": 6.898687721788415,
+      "fixedDelay": 7.926034411242679
+    },
+    {
+      "hour": 14,
+      "case": "street-h14-full",
+      "quantumExpectedDelay": 7.463135684491463,
+      "classicalDelay": 7.426567947340814,
+      "fixedDelay": 8.412718607543091
+    },
+    {
+      "hour": 15,
+      "case": "street-h15-full",
+      "quantumExpectedDelay": 7.514109872640953,
+      "classicalDelay": 7.477486806041514,
+      "fixedDelay": 8.463456225666832
+    },
+    {
+      "hour": 16,
+      "case": "street-h16-full",
+      "quantumExpectedDelay": 8.04129130982392,
+      "classicalDelay": 8.03503711614242,
+      "fixedDelay": 8.89415139167133
+    },
+    {
+      "hour": 17,
+      "case": "street-h17-full",
+      "quantumExpectedDelay": 8.343584398570526,
+      "classicalDelay": 8.340462191738549,
+      "fixedDelay": 9.210535258227178
+    },
+    {
+      "hour": 18,
+      "case": "street-h18-full",
+      "quantumExpectedDelay": 7.74737946083125,
+      "classicalDelay": 7.716305561252549,
+      "fixedDelay": 8.721001800740783
+    },
+    {
+      "hour": 19,
+      "case": "street-h19-full",
+      "quantumExpectedDelay": 5.509051794016818,
+      "classicalDelay": 5.478736076445497,
+      "fixedDelay": 6.242554852843498
+    },
+    {
+      "hour": 20,
+      "case": "street-h20-full",
+      "quantumExpectedDelay": 4.41777310157787,
+      "classicalDelay": 4.247058239639764,
+      "fixedDelay": 4.8071588178292455
+    },
+    {
+      "hour": 21,
+      "case": "street-h21-full",
+      "quantumExpectedDelay": 3.4427491058490824,
+      "classicalDelay": 3.4023748839824535,
+      "fixedDelay": 3.435794680511572
+    },
+    {
+      "hour": 22,
+      "case": "street-h22-full",
+      "quantumExpectedDelay": 3.244082803272067,
+      "classicalDelay": 3.2410285323842944,
+      "fixedDelay": 2.9553115881473975
+    },
+    {
+      "hour": 23,
+      "case": "street-h23-full",
+      "quantumExpectedDelay": 3.8827015130973854,
+      "classicalDelay": 3.805642393876277,
+      "fixedDelay": 3.0463758915431027
+    }
+  ],
+  "network": [
+    {
+      "pattern": "balanced",
+      "scenario": "open",
+      "seconds": 60,
+      "delay": {
+        "fixed": 12.396036263132293,
+        "exact": 10.707774392389581,
+        "quantum": 11.80035921795914
+      },
+      "finished": {
+        "fixed": 8,
+        "exact": 14,
+        "quantum": 12
+      },
+      "unfinished": {
+        "fixed": 95,
+        "exact": 89,
+        "quantum": 91
+      }
+    },
+    {
+      "pattern": "balanced",
+      "scenario": "blocked-mile",
+      "seconds": 60,
+      "delay": {
+        "fixed": 13.009282857621741,
+        "exact": 11.791577489880757,
+        "quantum": 12.385705517841473
+      },
+      "finished": {
+        "fixed": 8,
+        "exact": 13,
+        "quantum": 12
+      },
+      "unfinished": {
+        "fixed": 95,
+        "exact": 90,
+        "quantum": 91
+      }
+    },
+    {
+      "pattern": "mile",
+      "scenario": "open",
+      "seconds": 60,
+      "delay": {
+        "fixed": 11.918368668857399,
+        "exact": 9.100494262328741,
+        "quantum": 10.102658375006426
+      },
+      "finished": {
+        "fixed": 9,
+        "exact": 17,
+        "quantum": 14
+      },
+      "unfinished": {
+        "fixed": 110,
+        "exact": 102,
+        "quantum": 105
+      }
+    },
+    {
+      "pattern": "mile",
+      "scenario": "blocked-mile",
+      "seconds": 60,
+      "delay": {
+        "fixed": 12.50798546912974,
+        "exact": 10.267973170619356,
+        "quantum": 10.450900531503303
+      },
+      "finished": {
+        "fixed": 9,
+        "exact": 16,
+        "quantum": 14
+      },
+      "unfinished": {
+        "fixed": 110,
+        "exact": 103,
+        "quantum": 105
+      }
+    },
+    {
+      "pattern": "andalusia",
+      "scenario": "open",
+      "seconds": 60,
+      "delay": {
+        "fixed": 12.095200226444415,
+        "exact": 9.935311148867212,
+        "quantum": 9.866624351735435
+      },
+      "finished": {
+        "fixed": 14,
+        "exact": 19,
+        "quantum": 22
+      },
+      "unfinished": {
+        "fixed": 99,
+        "exact": 94,
+        "quantum": 91
+      }
+    },
+    {
+      "pattern": "andalusia",
+      "scenario": "blocked-mile",
+      "seconds": 60,
+      "delay": {
+        "fixed": 12.55794950863816,
+        "exact": 10.518738203841286,
+        "quantum": 10.364771864017646
+      },
+      "finished": {
+        "fixed": 14,
+        "exact": 20,
+        "quantum": 22
+      },
+      "unfinished": {
+        "fixed": 99,
+        "exact": 93,
+        "quantum": 91
+      }
+    },
+    {
+      "pattern": "cross",
+      "scenario": "open",
+      "seconds": 60,
+      "delay": {
+        "fixed": 14.047893096031652,
+        "exact": 11.126719723506184,
+        "quantum": 11.704631962511723
+      },
+      "finished": {
+        "fixed": 11,
+        "exact": 26,
+        "quantum": 25
+      },
+      "unfinished": {
+        "fixed": 128,
+        "exact": 113,
+        "quantum": 114
+      }
+    },
+    {
+      "pattern": "cross",
+      "scenario": "blocked-mile",
+      "seconds": 60,
+      "delay": {
+        "fixed": 14.481638915368956,
+        "exact": 11.85911546426035,
+        "quantum": 12.608310801034412
+      },
+      "finished": {
+        "fixed": 11,
+        "exact": 23,
+        "quantum": 24
+      },
+      "unfinished": {
+        "fixed": 128,
+        "exact": 116,
+        "quantum": 115
+      }
+    }
+  ],
+  "networkQuantumLowerDelayThanClassical": 2,
+  "networkQuantumHigherDelayThanClassical": 6,
+  "networkTies": 0,
+  "trafficSeed": 20261105,
+  "meaning": "Current frozen descriptive comparisons, not a multi-seed advantage or speedup study. Street quantum value is an expectation over four matched held-plan outcomes; network values are complete matched 60-second simulated runs with one declared seed per scenario. Added delay uses all requested cars and includes unfinished trips."
+}

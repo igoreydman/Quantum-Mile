@@ -1,0 +1,32 @@
+{
+  "sha256": {
+    "DATA-SOURCES.md": "69477c96997830c3d9da6cb31da2f2888e75ba6ce29639e6331368d0f4f9b061",
+    "Quantum-Mile-Submission.ipynb": "80d9928df46aee39888a0b0e79415999535de894b405374118d2d5e69e1fc8b7",
+    "fixtures.json": "b33afd85f39ad9b59ceb6e96291effde96116fcfe578af09b306a710aefc4abb",
+    "hardware/compiled-circuit.txt": "b072fd2dcdd855b61b7737668729f0c6783aa58d7495ccc9887fb2b4c0c13a6c",
+    "hardware/compiled.qpy": "c2a1264bbdbb8c0776d9a8f4157717b025dc541bc8fa3e880e4e69196f8d18dd",
+    "hardware/logical-circuit.qasm": "4479c70017d5e151fe7598df58a3898763a4a4589108c5e14f8d9f24832fd89a",
+    "hardware/logical-circuit.txt": "3b57b3c1c01235c27d452257fbda81dbca6609d3f0fc1a59d01377246ee65490",
+    "hardware.json": "3ab24e97428c1ea4ea6d5befc871c9288c30b4faa0d2ed3549c91f968bd7ce57",
+    "noisy-sample.json": "009290c362f4e857fdb6dcbaecf04d539cd45765ff18c035d91dd89157a934e4",
+    "preflight.py": "c5dda78638d760798737f4306e24f401a5139ac4fbfd413b443fc5307eff1558",
+    "quantum_core.py": "fb9415702916628e859cf2ea6cec1e105f7c8bd571b66393dd49678b04810af8",
+    "requirements-lock.txt": "f67b09b2e9fcaeb16fe3cb03d675ca16ecc04714b527481a55cda517c66a92d1",
+    "run.py": "e2e2e0f904fdd646781704a459a9cc6a3f4c13fa85441351c2193b8a74253e3c",
+    "source/circuit-decision.js": "f05214b768bc2cc1a18ebbf7600ebbe79eb6e96545df46c7d745d80c06101669",
+    "source/lesson-decision.js": "fb5b7f391f53d4a4248210c9ed96739182375eeb5a4a3ef9d34ffbd741cdd5ba",
+    "source/local-signal-planner.js": "ebda2b9bc106b36e8c28db93caf7f55f117b8849dd2c1da2cc2789cc991d7df2",
+    "source/neighborhood-controller.js": "86d5f14d53238b14f984569e26ee840e4a124c1b3c413f25f2c2ed9129c5fac9",
+    "source/neighborhood-geography.json": "a01aef8fccb5f47d91e79d835a858350e98019700589e49d02ae47a30f2b7260",
+    "source/neighborhood-workspace-model.js": "e0500a54a3b4d5aa7c1bb67aee060d1f4caf405c1e993d1956f24a6fc7f18e4c",
+    "source/queue-signal-controller.js": "7d8ce75b528b00403c3e7dd24438f8a2c4fa6771a66a49f1849bdfe77f7868b5",
+    "source/routed-network.json": "5d152ba2824643c5fc8a150d188deafb19a483448ed710060cc07aae751c6bb9",
+    "source/routed-traffic-model.js": "e81c1cb5e8c372897a8c4a80adcfd922982172f9848810fcc1f8af89edcfab7d",
+    "source/street-experience.js": "763d80f58d092f6d4508be0b52a34228ba22b44d6357ef3505255401d72338e8",
+    "source/traffic-demand.js": "baa3352bc79091fb9b030314f37334a206f61e192eaecef5e055d0f07bf49365",
+    "source/traffic-scenarios.js": "721ec8590ecef08496c057d73d655c4740469bac10396caf80951a0a13a62489",
+    "source/two-way-geography.json": "2f00cdd838b726903c5153004368cab943cd1f6d1b8f1be35b61444152af6f50",
+    "source/two-way-traffic-model.js": "bf8f97371949d0862a6f49136b7eb8d3feb5325faca7c2a135f6ca371344a5b0",
+    "verification.json": "c5cb66da73b9a85ea6d748e17e955208da82b23a96f38b6754c58d3eeff87f5a"
+  }
+}
